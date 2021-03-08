@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P";
+    font-weight: bold;
+}
+body {
+    background-color: rgb(63, 58, 58);
+}
+.game-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px auto;
+    max-width: 500px;
+    min-height: 400px;
+    color: white;
+    font-size: 40px;
+}
+.reload-button {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: firebrick;
+    cursor: pointer;
+    margin: 70px 0 0 0;
+}
+#display {
+    margin: 0 0 60px 0;
+}
+#clickrbutton {
+    width: 300px;
+    height: 100px;
+    background-color: firebrick;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin: 0 0 50px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#clickrbutton:hover {
+    color: white;
+}
+#clickrbutton:active {
+    transform: translate(10px);
+}
